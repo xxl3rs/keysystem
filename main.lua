@@ -1,2 +1,2 @@
-_G.key = "test"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/uksfx/keysystem/main/keycheck2.lua"))();
+key = "test"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xxl3rs/keysystem/refs/heads/main/keycheck.lua"))()
