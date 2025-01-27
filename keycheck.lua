@@ -1,7 +1,9 @@
-local key = _G.key
-local source = game:HttpGet("https://pastebin.com/raw/v6N7wC5S")
+if not key then
+    print("no key provided")
+end
+local source = [[\1p,\Mz;\epXN`RPl8dAV@B\l`\H[]v1(W)WI_kkev]] -- obfuscate it how u would
 if key == source then
-    return true
+    -- correct key
 else
-    return false
+    -- wrong key
 end
